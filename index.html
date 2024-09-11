@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Tien Duoc Blog</title>
+</head>
+<video autoplay muted loop id="myVideo">
+    <source src="Samurai-Cheems.mp4" type="video/mp4">
+  </video>
+<body>
+    <div>
+    <div id="content">
+        <h1>Giới thiệu bản thân</h1>
+        <img src="final_studio-93.jpg" alt="Ảnh đại diện">
+        <p>Xin chào, tôi là Nguyễn Tiến Được. </p>
+        <p>Tôi là một sinh viên Đại học Bách khoa Hà Nội.</p>
+        <p>Tôi yêu Bách khoa Hà Nội bằng cả trái tim.</p>
+        <p>Tôi nguyện cống hiến thanh xuân cho Bách khoa Hà Nội.</p>
+        <p>Bách khoa Hà Nội là Đại học số 1 Đại Cồ Việt.</p>
+    </div>
+    </div>
+<style>
+    .button-container {
+        display: flex;
+        flex-direction: column; /* Sắp xếp các nút theo cột */
+        gap: 40px;              /* Khoảng cách giữa các nút */
+        align-items: center;     /* Canh giữa các nút theo chiều ngang */
+        
+        /*di chuyển vị trí flexbox*/
+        position: absolute; 
+        top: 50px;  /* Di chuyển container xuống dưới 50px */
+        left: 100px; /* Di chuyển container qua phải 100px */    
+    }
+    .button-container a {
+        text-decoration: none;
+    }
+    .button-container button {
+        width: 200px;
+        padding: 15px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px; /* Bo tròn góc */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+        cursor: pointer;
+        transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
+    }
+     /* Hiệu ứng khi di chuột */
+     .button-container button:hover {
+            background-color: #0056b3; /* Thay đổi màu khi hover */
+            transform: translateY(-3px); /* Nút hơi nổi lên */
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Tăng độ đổ bóng */
+        }
+
+        /* Thay đổi màu nền cho từng nút tương ứng */
+        .facebook-btn {
+            background-color: #3b5998;
+        }
+
+        .facebook-btn:hover {
+            background-color: #2d4373;
+        }
+
+        .twitter-btn {
+            background-color: #1da1f2;
+        }
+
+        .twitter-btn:hover {
+            background-color: #0d8dec;
+        }
+
+        .instagram-btn {
+            background-color: #e1306c;
+        }
+
+        .instagram-btn:hover {
+            background-color: #bc2a5d;
+        }
+
+        .linkedin-btn {
+            background-color: #0077b5;
+        }
+
+        .linkedin-btn:hover {
+            background-color: #005582;
+        }
+</style>
+<div class="button-container">
+    <a href="https://www.facebook.com/Texas.Meme9999/" target="_blank">
+        <button class="facebook-btn">Facebook</button>
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+        <button class="twitter-btn">Twitter</button>
+    </a>
+    <a href="https://www.instagram.com/ngtien.duoc" target="_blank">
+        <button class="instagram-btn">Instagram</button>
+    </a>
+    <a href="https://www.linkedin.com/in/ntduoctexas/" target="_blank">
+        <button class="linkedin-btn">LinkedIn</button>
+    </a>
+    <a href="https://www.facebook.com/truyentranhhaiphong" target="_blank">
+        <button class="truyentranhhp">Fanpage</button>
+    </a>
+    <a href="https://www.facebook.com/groups/daugiatruyen" target="_blank">
+        <button class="sandaugia">Sàn đấu giá</button>
+    </a>
+    <a href="https://www.facebook.com/groups/truyentranhhaiphong" target="_blank">
+        <button class="grouptruyentranh">Group Facebook</button>
+    </a>
+</div>
+</body>
+</html>

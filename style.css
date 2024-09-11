@@ -1,0 +1,149 @@
+/* Thiết lập font chữ và màu sắc cho trang web */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Thiết lập đường viền và khoảng cách cho phần đầu trang */
+header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+}
+
+/* Thiết lập kích thước và độ rộng của ảnh đại diện */
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* Thiết lập kiểu chữ cho tiêu đề */
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Thiết lập khoảng cách và độ rộng cho phần nội dung */
+#content {
+    color: aliceblue;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Thiết lập kiểu chữ cho đoạn văn bản */
+p {
+    font-size: 18px;
+    line-height: 1;
+}
+
+/* Thiết lập nền và canh giữa cho phần nội dung */
+body {
+    background-size: cover;
+    text-align: center;
+    display: flex; /* sử dụng flexbox để căn giữa */
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center; /* căn giữa theo chiều dọc */
+}
+a {
+    color: #333; /* màu chữ cho các đường link */
+    text-decoration: none; /* loại bỏ gạch chân mặc định cho các đường link */
+    margin-right: 20px; /* khoảng cách giữa các đường link */
+}
+img:hover {
+    transform: scale(1.1);
+  }
+h1:hover {
+    text-shadow: 2px 2px #333;
+  }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+  }
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.logo-so{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdf-option {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: block;
+  }
+  
+  .sidebar.show {
+    width: 250px;
+  }
+  
+  .sidebar-menu {
+    margin: 50px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px 0 10px 15px;
+  }
+  
+  .sidebar-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .sidebar-menu li a:hover {
+    color: #fff;
+  }
+  
+  #sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #sidebar-toggle:focus {
+    outline: none;
+  }
+  
+  #sidebar-toggle:hover {
+    background-color: #444;
+  }
